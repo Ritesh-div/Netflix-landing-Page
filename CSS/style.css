@@ -1,0 +1,359 @@
+*{
+    margin: 0;
+    padding: 0;
+    a{
+        font-size: 0.8rem;
+        color: rgb(89, 89, 89);
+        font-weight: bold;
+    }
+}
+.banner{
+    background: url('/images/banner.jpg') no-repeat 0 0;
+    background-size: cover;
+}
+#netflix-logo{
+    height: 44px;
+}
+#engSing{
+    text-align: start;
+}
+.langauge{
+    border: 0.1px solid rgb(147, 146, 146);
+    background-color: rgba(0, 0, 0, 0.321);
+    border-radius: 4px;
+    padding: 2px 13px;
+    display: inline;
+    text-align: center;
+}
+.sing_in{
+    background-color: rgb(245, 14, 30);
+    padding: 2px 10px;
+    text-align: center;
+    border-radius: 4px;
+    display: inline-block;
+}
+.sing_in:hover{
+    opacity: 80%;
+}
+#textSection{
+    justify-content: center;
+    text-align: center;
+}
+
+#main{
+    font-size: 2.9rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#email{
+    text-align: left;
+    margin-left: 1rem;
+    width: 97%;
+    background-color: rgba(28, 36, 50,0.6);
+    padding: 2px 5px 7px 5px;
+    border-radius: 5px;
+    border: 0.1px solid rgb(134, 135, 153);
+}
+.emailText{
+    font-size: 0.8rem;
+}
+#emailGet{
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 5rem;
+
+}
+
+#email input{
+    background: transparent;
+    border: none;
+}
+
+#get{
+    background-color: rgb(245, 14, 30);
+    font-size: 1.2rem;
+    width: 100%;
+    margin-right: rem;
+    padding: 11px;
+    border-radius: 5px;
+}
+#get:hover{
+    opacity: 80%;
+}
+
+#black{
+    background-color: black;
+}
+
+.hr{
+    background-color: rgba(128, 128, 128,0.3);
+    height: 8px;
+    margin-bottom: 4.5rem;
+}
+
+.headingText{
+    font-size: 3rem;
+    margin-top: 7rem;
+    padding-left: 5rem;
+}
+.subText{
+    font-size: 1.5rem;
+    padding-left: 5rem;
+
+}
+
+.headingText1{
+    font-size: 3rem;
+    margin-top: 7rem;
+    padding-right: rem;
+}
+.subText1{
+    font-size: 1.5rem;
+    padding-left: rem;
+
+}
+.bolks img{
+    width: auto;
+    height: 23rem;
+    margin-bottom: 7rem;
+}
+
+#question{
+    margin-top: -1rem;
+}
+
+#question h2{
+    font-size: 3.1rem;
+    text-align: center;
+}
+
+.questions{
+    background-color: rgb(45, 45, 45);
+    padding: 15px 20px;
+    font-size: 1.5rem;
+    margin-bottom: 0.6rem;
+}
+.questions:hover{
+    background-color: rgb(65, 65, 65);
+}
+.imgdiv{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.footer{
+    color: rgb(89, 89, 89);
+}
+
+@media (max-width: 576px){
+    #engSing{
+        text-align: center;
+    }
+   
+    #netflix-logo{
+        height: 17px;
+    }
+    #English{
+        display: none;
+    }
+  
+    .langauge{
+        padding: 2px;
+    }
+    #textSection{
+        margin-top: 1rem;
+    
+    }
+    #main{
+        margin-top: -6rem;
+        
+    }
+   
+   #TV{
+    font-size: 2rem;
+   }
+   #anytime{
+    font-size: 1.3rem;
+    font-weight: normal;
+   }
+   #watch{
+    font-size: 1.3rem;
+    font-weight: normal;
+
+   }
+   #email{
+    width: 70%;
+    margin: auto;
+   }
+   #getStarted{
+    margin-top: 1rem;
+   }
+   #get{
+    width: 50%;
+    margin: auto;
+   }
+  .headingText{
+    text-align: center;
+    font-size: 2rem;
+  }
+.subText{
+    text-align: center;
+    font-size: 1rem;
+    padding-left: 0;
+}
+.headingText1{
+    text-align: center;
+    font-size: 2rem;
+  }
+.subText1{
+    text-align: center;
+    font-size: 1rem;
+    padding-left: 0;
+}
+
+#image1,#image2,#image3,#image4{
+    height: 14rem;   
+}
+.sminvisible{
+    display: none;
+}
+.footer{
+    text-align: center;
+}
+
+
+}
+
+
+@media (max-width: 768px){
+   
+    #engSing{
+        text-align: end;
+        align-items: end;
+    }
+    #Eng{
+        margin-right: -6rem;
+    }
+    
+    #netflix-logo{
+        height: 30px;
+    }
+    #sing{
+        margin-left: 2.7rem;
+        justify-content: center;
+       
+    }
+    #main{
+        font-size: 1.9rem;
+    }
+    #textSection{
+        margin-top: 10rem;
+    }
+    
+    #emailGet p{
+        font-size: 18px;
+        margin-top: 2rem;
+    }
+    .questions{
+        font-size: 19px;
+        padding: 10px 5px;
+    }
+    .plus{
+        height: 28px;
+    }
+    #question h2{
+        font-size: 2rem;
+        margin-top: 2rem;
+    }
+    .headingText{
+        text-align: center;
+        margin-top: 3rem;
+        padding-left: 0;
+    }
+    .subText{
+        text-align: center;
+        font-size: 1rem;
+        padding-left: 0;
+    }
+
+    .headingText1{
+        text-align: center;
+        margin-top: 3rem;
+        padding-left: 0;
+    }
+    .subText1{
+        text-align: center;
+        font-size: 1rem;
+        padding-left: 0;
+    }
+
+    .sminvisible{
+        display: none;
+    }
+   
+    .hr{
+        margin-bottom: 0rem;
+    }
+    
+}
+
+@media (max-width:1023px){
+    .sminvisible{
+        display: none;
+    }
+}
+
+@media (min-width: 1024px){
+
+    #netflix-logo{
+        height: 44px;
+    }
+    #sing{
+        margin-left: 1.7rem;
+        justify-content: center;
+       
+    }
+    #Eng{
+        margin-right: -6rem;
+    }
+    #main{
+        font-size: 2.7rem;
+    }
+    #textSection{
+        margin-top: 13rem;
+    }
+    .headingText{
+        text-align: left;
+        margin-top: 5rem;
+        padding-left: 0;
+    }
+    .subText{
+        text-align: left;
+        font-size: 1.5rem;
+        padding-left: 0;
+    }
+
+    .headingText1{
+        text-align: left;
+        margin-top: 2rem;
+        padding-left: 4rem;
+    }
+    .subText1{
+        text-align: left;
+        font-size: 1.5rem;
+        padding-left: 4rem;
+    }
+    #image2{
+        margin-left: 5rem;
+    }
+    .lginvisible{
+        display: none;
+    }
+}
+@media(max-width: 1440px){
+
+    #engSing{
+        text-align: center;
+    
+    }
+ }
